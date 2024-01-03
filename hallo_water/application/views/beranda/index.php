@@ -6,17 +6,17 @@
         <div class="carousel-item active">
             <div class="carousel-container">
                 <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Hallo Water</span></h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+                <p class="animate__animated animate__fadeInUp">Hallo Water adalah sebuah Aplikasi berbasis website yang memberikan informasi tentang air bersih dan Shop khusus kebutuhan tentang air serta menyediakan fitur Konsultasi by whatsApp </p>
+                <!-- <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a> -->
             </div>
         </div>
 
         <!-- Slide 2 -->
         <div class="carousel-item">
             <div class="carousel-container">
-                <h2 class="animate__animated animate__fadeInDown">Hallo Water ?</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+                <h2 class="animate__animated animate__fadeInDown">apa itu Hallo Water?</h2>
+                <p class="animate__animated animate__fadeInUp">merupakan aplikasi yang memberikan informasi tentang jenis air bersih dan aman yang layak dikomsumsi oleh masyarakat  </p>
+                <!-- <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a> -->
             </div>
         </div>
 
@@ -24,8 +24,8 @@
         <div class="carousel-item">
             <div class="carousel-container">
                 <h2 class="animate__animated animate__fadeInDown">Information</h2>
-                <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+                <p class="animate__animated animate__fadeInUp">Air bersih adalah air yang bebas dari kontaminan atau zat-zat yang dapat membahayakan kesehatan manusia. Air bersih memenuhi standar kualitas yang ditetapkan untuk konsumsi manusia dan penggunaan domestik. Proses penyediaan air bersih melibatkan pengambilan sumber air, pengolahan untuk menghilangkan zat-zat berbahaya, dan distribusi kepada masyarakat. Air bersih penting untuk memenuhi kebutuhan hidup sehari-hari, termasuk minum, memasak, mandi, dan keperluan sanitasi. Keberlanjutan sumber air bersih dan pelestarian kualitas air sangat krusial untuk mendukung kesehatan manusia dan ekosistem.</p>
+                <!-- <a href="" class="btn-get-started animate__animated animate__fadeInUp">Read More</a> -->
             </div>
         </div>
 
@@ -53,7 +53,7 @@
                             <div class="icon"><i class="bx bxl-dribbble"></i></div>
                             <h4 class="title">Hallo Water SHOP
                     </a></h4>
-                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                    <p class="description">menjual kebutuhan tentang air dan menyediakan barang yang sudah di rekomendasikan oleh pakar air(hidrolog)</p>
                 </div>
             </div>
 
@@ -62,7 +62,7 @@
                 <div class="icon-box icon-box-cyan">
                     <div class="icon"><i class="bx bx-file"></i></div>
                     <h4 class="title"><a href="https://wa.me/6285213210821?text=Saya%20Ingin%20Melakukan%20Konsultasi%20Mengenai%20Air%20Besih">Consultation</a></h4>
-                    <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    <p class="description">Memberikan solusi kepada pengguna aplikasi yang memiliki masalah tentang air melalui whatsApp </p>
                 </div>
             </div>
 
@@ -74,13 +74,13 @@
                 </div>
             </div> -->
 
-            <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <!-- <div class="col-md-6 col-lg-3 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                 <div class="icon-box icon-box-blue">
                     <div class="icon"><i class="bx bx-world" ></i></div>
                     <h4 class="title"><a href="">Artikel</a></h4>
-                    <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                    <p class="description">Memberikan Edukasi kepada pengguna aplikasi tentang jenis air yang bersih dan aman</p>
                 </div>
-            </div>
+            </div> -->
 
         </div>
 
@@ -99,17 +99,18 @@
 
                 <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
 
-                    <div class="icon-box">
-                        <div class="icon"><i class="bx bx-fingerprint"></i></div>
-                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                  <div class="icon-box">
+                         <div class="icon"><i class="bx bx-water"></i></div>
+                        <h4 class="title"><a href="">Air Bersih</a></h4>
+                        <p class="description">
+Air bersih adalah suatu anugerah yang tak ternilai bagi kehidupan kita. Seiring dengan kebutuhan manusia yang terus berkembang, penting untuk memahami bahwa air bersih bukanlah sumber yang tak terbatas. Ini bukan hanya sekadar cairan yang memuaskan dahaga, melainkan aspek kritis dalam menjaga kesehatan, kebersihan, dan kelangsungan hidup.</p>
                     </div>
 
-                    <div class="icon-box">
+                    <!-- <div class="icon-box">
                         <div class="icon"><i class="bx bx-gift"></i></div>
                         <h4 class="title"><a href="">Nemo Enim</a></h4>
                         <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-                    </div>
+                    </div> -->
 
                 </div>
             </div>

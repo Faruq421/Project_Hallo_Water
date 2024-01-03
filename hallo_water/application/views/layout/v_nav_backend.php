@@ -114,7 +114,7 @@
                       <a href="<?= base_url('artikel') ?>" class="nav-link <?php if ($this->uri->segment(1) == 'user') {
                                                                             echo "active";
                                                                         } ?>">
-                          <i class="nav-icon fas fa-users"></i>
+                          <i class="nav-icon fa fa-paper-plane"></i>
                           <p>
                               Artikel
                           </p>
@@ -122,7 +122,7 @@
                   </li>
 
                   <li class="nav-item">
-                      <a href="<?= base_url('auth/logout_user') ?>" class="nav-link ">
+                      <a href="<?= base_url('user/logout') ?>" class="nav-link ">
                           <i class="nav-icon fas fa-sign"></i>
                           <p>
                               Logout

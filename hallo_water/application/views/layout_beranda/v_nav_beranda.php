@@ -1,4 +1,4 @@
-<div class="container d-flex justify-content-between align-items-center">
+<div class="container d-flex justify-content-between align-items-center" >
 
     <div class="logo">
         <h1 class="text-light"><a href="index.html"><span >HALLO WATER</span></a></h1>

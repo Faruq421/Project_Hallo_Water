@@ -54,11 +54,11 @@
 
                     <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
 
-                        <div class="dropdown-divider"></div>
+                        <!-- <div class="dropdown-divider"></div>
                         <a href="<?= base_url('pelanggan/akun') ?>" class="dropdown-item">
                             <i class="fas fa-user mr-2"></i> Akun Saya
 
-                        </a>
+                        </a> -->
                         <div class="dropdown-divider"></div>
                         <a href="<?=base_url('pesanan_saya')?>" class="dropdown-item">
                             <i class="fas fa-shopping-cart mr-2"></i> Pesanan Saya

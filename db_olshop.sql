@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 02, 2024 at 01:17 PM
+-- Generation Time: Jan 03, 2024 at 01:23 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 7.4.33
 
@@ -39,8 +39,9 @@ CREATE TABLE `tbl_artikel` (
 --
 
 INSERT INTO `tbl_artikel` (`id_artikel`, `judul_artikel`, `teks_artikel`, `gambar`) VALUES
-(3, 'qweqweq', 'qweqew', 'BuktiUpload1.jpg'),
-(4, 'qweqweq', 'sad asdasdwqdqw wqd qw', '7286e53f38fd5846ab18f37acd1e7cbe.jpg');
+(12, 'Krisis Ketersediaan Air Bersih', 'Air merupakan unsur yang vital dalam kehidupan. Seseorang tidak dapat hidup tanpa air, karena air merupakan kebutuhan utama hidup manusia. Ketersediaan air di dunia ini begitu melimpah, namun yang dapat dikonsumsi oleh manusia untuk keperluan minum sangatlah sedikit. Hal ini berarti ketersediaan air bersih yang dikonsumsi oleh manusia sangatlah terbatas. Selain itu, kecenderungan yang terjadi saat ini adalah berkurangnya ketersediaan air bersih yang dikenal sebagai krisis air. Krisis air bersih merupakan suatu kondisi ketidakseimbangan antara ketersediaan air bersih dan permintaan air bersih. Semakin meningkatnya populasi, semakin besar pula kebutuhan akan air minum. Selain itu, krisis air merupakan permasalahan lingkungan yang dialami oleh banyak negara, termasuk Indonesia. Masalah ini bahkan masuk dalam Sustainable Development Goals (SDGs) atau Tujuan Pembangunan Berkelanjutan yang disepakati oleh 193 negara.', 'Screenshot_2024-01-03_013454.png'),
+(13, 'Bahaya Konsumsi Air yang Tidak Bersih', 'Sulis menjelaskan bahwa air bersih merupakan salah satu kebutuhan penting bagi manusia. Terdapat tiga fisik air yang harus diperhatikan yaitu tidak berbau, tidak berasa dan tidak bewarna. “Tiga komponen tersebut merupakan syarat fisik utama sebagai patokan untuk menentukan air itu bagus atau tidak, karena untuk mikro-organisme dan kimia perlu diperiksa lebih lanjut di laboratorium,” jelasnya.\r\n\r\nLebih lanjut, Zulfa dalam pemaparannya menegaskan jika air yang tidak layak konsumsi akan membuat kondisi tubuh manusia rentan terserang penyakit, salah satunya diare. “Diare bukanlah penyakit yang sepele, menurut WHO diare ini dapat membunuh 2 juta anak disetiap tahunnya. Karena diare ini sangat dekat dengan yang namanya dehidrasi, jika tidak segera ditangani akan terjadi kematian,” tambahnya.\r\n\r\nTerjadinya diare, kata Zulfa, umumnya disebabkan melakukan sesuatu yang kurang bersih, contohnya meminum air putih mentah atau kotor yang tercemar oleh bakteri E.coli, BAB di sembarang tempat, lingkungan kotor, makanan yang dihinggapi lalat, dan telah terkontaminasi oleh bakteri E.coli, Salmonella dan Shigella.\r\n\r\n“Proses terjadinya diare sendiri karena kita tidak rajin mencuci tangan. Ketika kotoran manusia itu larut dalam air atau dari makanan yang dihinggapi oleh lalat, bakteri akan masuk ke dalam tubuh menyebabkan pencernaan terganggu maka terjadilah diare,” jelas Zulfa.\r\n\r\nZulfa juga menjelaskan ciri – ciri gejala diare sendiri di antaranya BAB cair lebih dari 3 kali sehari, muntah, nafsu makan menurun, demam, hingga mengalami dehidrasi. Untuk mencegah diare, ia menyarankan untuk rajin mencuci tangan dengan sabun, menjaga kebersihan lingkungan, serta menjaga makanan yang dikonsumsi tetap higienis untuk menghindari kontaminasi silang dari bakteri.', 'Screenshot_2024-01-03_013758.png'),
+(14, 'Air Minum Kemasan Berisi Jentik Nyamuk dan Lumut Sering Ditemukan', 'Kualitas air galon yang banyak dijual di Mamuju nampaknya perlu dipertanyakan kelayakannya. Betapa tidak, beberapa warga menemukan air kemasan galon tak layak untuk dikonsumsi,\" kata warga lingkungan Padang Panga, Jalan Soekarno Hatta, Ardiansah, Rabu (11/1/2017). Bahkan bukan hanya sekali, dia mengaku dirinya beberapa kali mendapati jentik nyamuk di dalam air minum galon yang baru dibelinya. \"Saya juga heran, kok bisa di dalam air galon isi ulang itu ada jentik nyamuk beberapa hari lalu. Saya lihat langsung, jentik nyamuknya masih hidup di dalam galon. Bagaimana cara mereka (pedagang.red) melakukan penyaringan.\" Hal yang sama juga dialami oleh Nanna, seorang penyiar di salah satu lembaga penyiaran Radio di Ibu Kota Sulbar ini. Selain jentik nyamuk, Nanna mengaku juga mendapati air galon yang berlumut.\r\n', 'Screenshot_2024-01-03_0140071.png');
 
 -- --------------------------------------------------------
 
@@ -67,8 +68,7 @@ INSERT INTO `tbl_barang` (`id_barang`, `nama_barang`, `id_kategori`, `harga`, `d
 (10, 'filter kran air', 10, 23000, 'filter kran air berfungsi untuk menjernihkan air yang kotor', 'kran.jpg', 2),
 (11, 'filter air minum', 10, 2300000, 'filter air minum ini merupakan filter untuk mendapatkan air yang bersih dan aman di komsumsi yang mana filter ini telah di uji oleh ahli bidang air', 'filter.jpg', 6),
 (12, 'filter air kran ', 10, 120000, 'filter air kran adalah filter air bisa membunuh berbagai macam bakteri di air dan menghilang bau air ', 'minuj.jpg', 12),
-(13, 'paket filter air 2 tahab', 10, 150000, 'filter air 2tahab \r\nsedimen filter 10 yang berfungsi untuk menyaring partikel yang besar seperti kotoran,lumpur,pasir,dan debu', 'Screenshot_2024-01-02_163315.png', 10),
-(15, 'Hazel Rivansyah', 4, 10000000, 'ini sepatu baru jieeellllll wleeeekkkk', 'HAZOL.JPG', 1000);
+(13, 'paket filter air 2 tahab', 10, 150000, 'filter air 2tahab \r\nsedimen filter 10 yang berfungsi untuk menyaring partikel yang besar seperti kotoran,lumpur,pasir,dan debu', 'Screenshot_2024-01-02_163315.png', 10);
 
 -- --------------------------------------------------------
 
@@ -120,12 +120,6 @@ CREATE TABLE `tbl_kategori` (
 --
 
 INSERT INTO `tbl_kategori` (`id_kategori`, `nama_kategori`) VALUES
-(1, 'pakaian wanita'),
-(3, 'perhiasan'),
-(4, 'aksesoris'),
-(5, 'wanita'),
-(8, 'asd'),
-(9, 'tawar'),
 (10, 'filter Air');
 
 -- --------------------------------------------------------
@@ -148,12 +142,15 @@ CREATE TABLE `tbl_pelanggan` (
 --
 
 INSERT INTO `tbl_pelanggan` (`id_pelanggan`, `nama_pelanggan`, `email`, `password`, `foto`, `role_id`) VALUES
-(2, 'ajel', 'ajel@gmail.com', '123', 'foto.jpg', 2),
 (4, '123', '123@gmail.com', '12', NULL, 2),
 (9, 'hazel', 'hazel89@gmail.com', '123', 'foto.jpg', 1),
 (12, '123', '1234@gmail.com', '123', NULL, 2),
 (13, 'hazel rivansyah', 'hazel@gmail.com', '123', 'foto.jpg', 2),
-(14, 'udin', 'udin@gmail.com', '123', 'foto.jpg', 2);
+(14, 'udin', 'udin@gmail.com', '123', 'foto.jpg', 2),
+(15, 'budi1', 'budi1@gmail.com', '123', 'foto.jpg', 2),
+(16, 'budi', 'jiel@gmail.com', '123', NULL, 1),
+(18, 'admin', 'admin@gmail.com', '123', 'foto.jpg', 1),
+(19, 'user', 'user@gmail.com', '123', 'foto.jpg', 2);
 
 -- --------------------------------------------------------
 
@@ -211,7 +208,8 @@ INSERT INTO `tbl_rinci_transaksi` (`id_rinci`, `no_order`, `id_barang`, `qty`) V
 (17, '231227RTQAOJ1Y', 14, 1),
 (18, '231227RTQAOJ1Y', 13, 1),
 (19, '231229DJFJFDLM', 15, 1),
-(20, '240102JHTJSUGI', 15, 2);
+(20, '240102JHTJSUGI', 15, 2),
+(21, '2401025NNJGO8K', 13, 1);
 
 -- --------------------------------------------------------
 
@@ -279,7 +277,8 @@ INSERT INTO `tbl_transaksi` (`id_transaksi`, `id_pelanggan`, `no_order`, `tgl_or
 (12, 9, '231227QCN3WZTT', '2023-12-27', 'hazel', '123123123123', 'Banten', 'Lebak', 'jl.batusangkar', '2665', 'tiki', 'REG', '2-3 Hari', 36000, 1400, 25000000, 25036000, 1, 'download.png', 'hazel', 'bni', '123-123-123-123', 1, NULL),
 (13, 9, '231227RTQAOJ1Y', '2023-12-27', 'hazel', '123123123123', 'Bangka Belitung', 'Bangka Barat', 'jl.batusangkar', '2665', 'jne', 'OKE', '3-6 Hari', 60000, 1500, 26231233, 26291233, 0, NULL, NULL, NULL, NULL, 0, NULL),
 (14, 9, '231229DJFJFDLM', '2023-12-29', 'hazel', '123123123123', 'Banten', 'Pandeglang', 'jl.batusangkar', '2665', 'jne', 'REG', '2-3 Hari', 15000, 1000, 10000000, 10015000, 1, 'glass_water_splash_5k-3840x2160.jpg', 'hazel', 'bri', '123-123-123-123', 3, 'JKT123424242323'),
-(15, 9, '240102JHTJSUGI', '2024-01-02', 'faruk', '1243123123', 'Sumatera Barat', 'Tanah Datar', 'ladkfnlksdanfp', '12312', 'jne', 'REG', '2-3 Hari', 100000, 2000, 20000000, 20100000, 1, 'BuktiUpload2.jpg', 'sadf', 'sdfd', '12312312312', 3, '1231231231');
+(15, 9, '240102JHTJSUGI', '2024-01-02', 'faruk', '1243123123', 'Sumatera Barat', 'Tanah Datar', 'ladkfnlksdanfp', '12312', 'jne', 'REG', '2-3 Hari', 100000, 2000, 20000000, 20100000, 1, 'BuktiUpload2.jpg', 'sadf', 'sdfd', '12312312312', 3, '1231231231'),
+(16, 15, '2401025NNJGO8K', '2024-01-02', 'budi', '21313131', 'Bangka Belitung', 'Bangka Selatan', 'riau', '12121', 'jne', 'OKE', '3-6 Hari', 30000, 10, 150000, 180000, 1, 'Screenshot_2024-01-02_221153.png', 'budi', 'bri', '124423113', 1, NULL);
 
 -- --------------------------------------------------------
 
@@ -300,7 +299,6 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`id_user`, `nama_user`, `username`, `password`, `level_user`) VALUES
-(2, 'ucup', 'user', 'user', 2),
 (3, 'hazel', 'hazel89', 'hazel89', 2);
 
 --
@@ -375,7 +373,7 @@ ALTER TABLE `tbl_user`
 -- AUTO_INCREMENT for table `tbl_artikel`
 --
 ALTER TABLE `tbl_artikel`
-  MODIFY `id_artikel` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_artikel` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- AUTO_INCREMENT for table `tbl_barang`
@@ -399,7 +397,7 @@ ALTER TABLE `tbl_kategori`
 -- AUTO_INCREMENT for table `tbl_pelanggan`
 --
 ALTER TABLE `tbl_pelanggan`
-  MODIFY `id_pelanggan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id_pelanggan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `tbl_rekening`
@@ -411,13 +409,13 @@ ALTER TABLE `tbl_rekening`
 -- AUTO_INCREMENT for table `tbl_rinci_transaksi`
 --
 ALTER TABLE `tbl_rinci_transaksi`
-  MODIFY `id_rinci` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id_rinci` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- AUTO_INCREMENT for table `tbl_transaksi`
 --
 ALTER TABLE `tbl_transaksi`
-  MODIFY `id_transaksi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id_transaksi` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `tbl_user`
